@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    display: flex;
+    background-color: #0f1111;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+}
+
+.logo
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(Images/amazon_logo.png);
+    background-size: cover;
+}
+
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover
+{
+    cursor: pointer;
+    border: 2px solid white ;
+    border-radius: 3px;
+}
+
+.nav-address
+{
+    color: white;
+    height: 40px;
+}
+
+.nav-address-icon
+{
+    display: flex;
+    gap: 5px;
+}
+
+.nav-address>p
+{
+    box-sizing: content-box;
+    padding: 0 2px;
+}
+
+.search-bar
+{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 3px;
+    border: 3px solid transparent;
+}
+
+.search-select
+{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.search-input
+{
+    border: none;
+    flex: 1;
+    font-size: 0.85rem;
+}
+
+.nav-signin
+{
+    color: white;
+}
+
+.nav-signin>span
+{
+    font-size: 0.7rem;
+}
+
+.search-bar:hover
+{
+    border: 3px solid #febd68;
+    border-radius: 5px;
+}
+.nav-sec
+{
+    font-weight: 700;
+    font-size: 0.895rem;
+}
+
+.nav-cart
+{
+    font-size: 25px;
+    display: flex;
+    color: white;
+    gap: 2px;
+}
+.border{
+    padding: 0 10px;
+    padding-top: 2px;
+}
+.nav-cart-logo
+{
+    float: left;
+}
+
+.ham
+{
+    display: flex;
+    gap: 5px;
+}
+
+.subheader
+{
+    background-color:  #232f3e;;
+    display: flex;
+    align-items: center;
+}
+
+.lastbox
+{
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.subheader>div
+{
+    color: #f3f3f3;
+    box-sizing: content-box;
+    height: 12px;
+    padding: 8px 9px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.hero-section
+{
+    background-image: url(Images/hero_image.jpg);
+    height: 55vh;
+    width: 100%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-msg
+{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 3px;
+    width: 80%;
+}
+
+.hero-msg>p
+{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: white;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.content-div
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 35px;
+}
+.items
+{
+    background-color: white;
+    height: 330px;
+    width: 300px;
+}
+
+.items>div{
+    margin-top: 6px;
+}
+
+h2
+{
+    font-size: 1.2rem;
+    box-sizing: content-box;
+    margin-top: 7px;
+    margin-left: 14px;
+}
+
+span
+{
+    display: block;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.back{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+footer{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f1111 ;
+}
+
+.col-1
+{
+    padding-top: 50px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.col-1>div
+{
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: #f3f3f3;
+    display: block;
+    padding-top: 5px;
+    border: 2px solid transparent;
+}
+
+a:hover
+{
+    cursor: pointer;
+    border: 2px solid ;
+    border-radius: 3px;
+}
+
+.content a{
+    color: #0f1111;
+}
+
+.copyright
+{
+    border: 2px solid #e2e7e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+    color: #e2e7e6;
+    flex-direction: column;
+}
